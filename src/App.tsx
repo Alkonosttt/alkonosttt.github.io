@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}/>
-      <p>Portfolio Website</p>
+      <h1>Portfolio Website</h1>
     </>
   )
 }
