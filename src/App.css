@@ -1,11 +1,16 @@
-body.dark {
+html.dark {
   background-color:  #0a0a0a;
   color:  #DEDDD9;
 }
 
-body.light {
+html.light {
   background-color:  #DEDDD9;
   color:  #0a0a0a;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 .accented {
