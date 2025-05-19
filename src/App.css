@@ -17,3 +17,11 @@ body {
   background-color:  #fa9599;
   color: #DEDDD9;
 }
+
+h1, h2, h3, h4 {
+  font-family: "IM Fell English SC", serif;
+}
+
+p {
+  font-family: "Sono", sans-serif;
+}
