@@ -40,3 +40,7 @@ p, span {
   margin: 30px;
   padding: 5px;
 }
+
+#namePlaque > h1::first-letter {
+  color: #ed5b00;
+}
