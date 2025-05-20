@@ -47,7 +47,7 @@ const SvgCarousel: React.FC<SvgCarouselProps> = ({ width, icons }) => {
         key={i}
         src={`/images/technologies/${icon}`}
         alt={icon}
-        style={{ height: '50px', width: 'auto' }}
+        style={{ height: '20px', width: 'auto' }}
         />
     ))}
     </div>
