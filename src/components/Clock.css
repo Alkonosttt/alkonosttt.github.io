@@ -8,6 +8,8 @@
 }
 
 #clock {
+    display: flex;
+    align-items: center;
     color:  #DEDDD9;
     font-family: "Sono", sans-serif;
 }
