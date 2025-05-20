@@ -1,7 +1,7 @@
 .TopBar {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     background-color: #0a0a0a;
     margin: 30px;
 }
