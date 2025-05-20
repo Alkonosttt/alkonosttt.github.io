@@ -1,4 +1,5 @@
 .TopBar {
     position: fixed;
+    top: 0;
     margin: 30px;
 }
