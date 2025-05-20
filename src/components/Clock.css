@@ -1,0 +1,12 @@
+/* for the blinking semicolon */
+.transparent {
+    opacity: 0;
+}
+
+.visible {
+    opacity: 1;
+}
+
+#clock {
+    color:  #DEDDD9;
+}

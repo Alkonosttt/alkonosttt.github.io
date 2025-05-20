@@ -18,7 +18,7 @@ const Clock = () => {
     const minutes = time.getMinutes().toString().padStart(2, '0');
 
     return (
-        <div>
+        <div id="clock">
             {hours}
             <span className={showColon ? 'transparent' : 'visible'}>:</span>
             {minutes}
