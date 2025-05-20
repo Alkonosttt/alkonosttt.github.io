@@ -41,3 +41,14 @@
     mask: url("/public/images/ui/sun.svg") no-repeat center;
     mask-size: contain;
 }
+
+#home {
+    background-color: #DEDDD9;
+    -webkit-mask: url("/public/images/ui/home.svg") no-repeat center;
+    mask: url("/public/images/ui/home.svg") no-repeat center;
+    mask-size: contain;
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}

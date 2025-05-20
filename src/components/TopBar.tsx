@@ -23,6 +23,7 @@ const TopBar: React.FC<TopBarProps> = () => {
             <header className="TopBar">
                 <Clock/>
                 <button id="themeSwitcher" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}/>
+                <button id="home" />
             </header>
         </div>
     );
