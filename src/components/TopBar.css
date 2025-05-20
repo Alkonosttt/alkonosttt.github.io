@@ -11,6 +11,7 @@
     border-radius: 10px;
     overflow: hidden;
     background-color: #0a0a0a;
+    border: solid 1px #0a0a0a;
 }
 /* when the dark mode is on */
 .dark .headerContainer {
