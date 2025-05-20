@@ -7,7 +7,10 @@ function App() {
   return (
     <Router>
       <TopBar/>
-      <h1>Portfolio Website</h1>
+      <div id='namePlaque'>
+        <h2>mobile developer | web developer</h2>
+        <h1>ANNA V.</h1>
+      </div>
     </Router>
   )
 }

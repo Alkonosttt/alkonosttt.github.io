@@ -31,3 +31,11 @@ h1, h2, h3, h4 {
 p, span {
   font-family: "Sono", sans-serif;
 }
+
+#namePlaque {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 30px;
+  padding: 5px;
+}
