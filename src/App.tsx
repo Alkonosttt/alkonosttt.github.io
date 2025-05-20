@@ -1,19 +1,14 @@
-import { useEffect, useState } from 'react'
 import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import TopBar from './components/TopBar'
 
 function App() {
-  const [theme, setTheme] = useState<'dark'| 'light'>('light');
-
-  useEffect(()=> {
-    document.documentElement.classList.remove('dark', 'light');
-    document.documentElement.classList.add(theme);
-  },[theme]);
   
   return (
-    <>
-      <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}/>
+    <Router>
+      <TopBar/>
       <h1>Portfolio Website</h1>
-    </>
+    </Router>
   )
 }
 
