@@ -1,6 +1,42 @@
-.TopBar {
+.headerContainer {
     position: fixed;
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    overflow: hidden;
     background-color: #0a0a0a;
+}
+/* when the dark mode is on */
+.dark .headerContainer {
+    border: solid 1px #DEDDD9;
+}
+
+
+.TopBar {
+    display: flex;
+}
+
+#themeSwitcher {
+    background-color: #DEDDD9;
+    -webkit-mask: url("/public/images/ui/moon.svg") no-repeat center;
+    mask: url("/public/images/ui/moon.svg") no-repeat center;
+    mask-size: contain;
+    width: 35px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+/* when the dark mode is on, changes the svg to sun */
+.dark #themeSwitcher {
+    background-color: #DEDDD9;
+    -webkit-mask: url("/public/images/ui/sun.svg") no-repeat center;
+    mask: url("/public/images/ui/sun.svg") no-repeat center;
+    mask-size: contain;
 }

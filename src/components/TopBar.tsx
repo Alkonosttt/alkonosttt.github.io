@@ -17,9 +17,11 @@ const TopBar: React.FC<TopBarProps> = () => {
 
     return (
         // a button to switch between the light and dark mode
-        <header className="TopBar">
-            <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}/>
-        </header>
+        <div className="headerContainer">            
+            <header className="TopBar">
+                <button id="themeSwitcher" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}/>
+            </header>
+        </div>
     );
 };
 
