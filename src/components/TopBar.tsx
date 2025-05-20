@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import './TopBar.css';
+import Clock from './Clock';
 
 interface TopBarProps {}
 
@@ -16,9 +17,11 @@ const TopBar: React.FC<TopBarProps> = () => {
     },[theme]);
 
     return (
+        //clock
         // a button to switch between the light and dark mode
         <div className="headerContainer">            
             <header className="TopBar">
+                <Clock/>
                 <button id="themeSwitcher" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}/>
             </header>
         </div>
