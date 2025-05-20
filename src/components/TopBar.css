@@ -1,4 +1,4 @@
-.headerContainer {
+#headerContainer {
     position: fixed;
     top: 0;
     left: 0;
@@ -8,19 +8,27 @@
     justify-content: space-between;
     margin: 30px;
     padding: 5px;
-    border-radius: 10px;
     overflow: hidden;
-    background-color: #0a0a0a;
-    border: solid 1px #0a0a0a;
 }
 /* when the dark mode is on */
-.dark .headerContainer {
+.dark #topBarRight, .dark #topBarLeft {
     border: solid 1px #DEDDD9;
 }
 
-
-.TopBar {
+#topBarRight, #topBarLeft {
     display: flex;
+    flex-direction: row;
+    padding: 5px;
+    background-color: #0a0a0a;
+    border: solid 1px #0a0a0a;
+    border-radius: 10px;
+}
+
+
+#topBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
 #themeSwitcher {
@@ -51,6 +59,23 @@
     height: 35px;
     border: none;
     cursor: pointer;
+}
+
+#navigationSpanWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #DEDDD9;
+}
+
+#navigationSpan {
+    color: #DEDDD9;
+}
+
+#navigationSpan::first-letter {
+    color: #fa9599;
 }
 
 #githubLink {

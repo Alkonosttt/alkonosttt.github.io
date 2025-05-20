@@ -24,14 +24,24 @@ const TopBar: React.FC<TopBarProps> = () => {
     return (
         // clock <Clock/>
         // home button #home
+        // a span that says the name of the current page, 
+        // TODO: replace it depending on the active page ^^^
+
         // a button to switch between the light and dark mode #themeSwitcher
         // a button with a link to GitHub #githubLink
-        <div className="headerContainer">            
-            <header className="TopBar">
-                <Clock/>
-                <button id="home" />
-                <button id="themeSwitcher" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}/>
-                <button id="githubLink" onClick={githubLink}/>                
+        <div id="headerContainer">            
+            <header id="topBar">
+                <div id="topBarLeft">
+                    <Clock/>
+                    <button id="home" />
+                </div>
+                <div id="topBarRight">
+                    <div id="navigationSpanWrapper">
+                        <span id="navigationSpan">/root</span>
+                    </div>                    
+                    <button id="themeSwitcher" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}/>
+                    <button id="githubLink" onClick={githubLink}/>                    
+                </div>        
             </header>
         </div>
     );

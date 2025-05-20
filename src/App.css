@@ -28,6 +28,6 @@ h1, h2, h3, h4 {
   font-family: "IM Fell English SC", serif;
 }
 
-p {
+p, span {
   font-family: "Sono", sans-serif;
 }
