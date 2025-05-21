@@ -39,7 +39,7 @@ function App() {
       <div id='namePlaque'>
         <SvgCarousel width={textWidth} icons={svgFiles} />
         <div ref={textRef}>          
-          <h2>mobile developer | web developer</h2>
+          <h4>mobile developer | web developer</h4>
         </div>
         <h1>ANNA V.</h1>
       </div>
